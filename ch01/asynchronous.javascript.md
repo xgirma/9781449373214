@@ -15,6 +15,7 @@ Callbacks, the event loop, and threading.
 
 - The call to `http.get()` triggers a network request that a separate thread handles. The JavaScript code you write in listing `ch01/05` runs on a single thread, but the code that implements the async tasks it is not part of that JavaScript and is free to run in a separate thread.
 
+- A multi-threaded language might interrupt whatever code was currently executing to provide the results, but in JavaScript these interruptions are forbidden. Instead there is a run-to-completion rule, which means that your code runs without interuption untill it passes control back to the host environment by returning from the function that the host initially called. 
 - In JavaScript there is a `run-to-completion` rule.
 
 - In `listing ch/06` The `marco` function is immediately placed in the queue. After the console displays "last line" the event loop turns and `marco` can be pulled off the queue.
