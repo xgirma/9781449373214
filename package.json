@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/xgirma/9781449373214/issues"
   },
-  "homepage": "https://github.com/xgirma/9781449373214#readme"
+  "homepage": "https://github.com/xgirma/9781449373214#readme",
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0"
+  }
 }
