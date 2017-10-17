@@ -10,4 +10,5 @@ fs.writeFileSync(file, timestamp);
 content = fs.readFileSync(file);
 
 console.assert(content = timestamp);
+console.log(content);
 console.log('last line of the script');
