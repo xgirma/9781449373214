@@ -4,7 +4,7 @@ const async = true;
 let xhr = new XMLHttpRequest();
 
 console.log('will the listener callback in the XHR object will execute?');
-xhr.open('get', 'data.json', async);
+xhr.open('get', '1.1.data.json', async);
 xhr.send();
 
 // creating a three second delay
