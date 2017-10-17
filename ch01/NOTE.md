@@ -21,5 +21,14 @@ function callback(city){
 cities.forEach(callback);
 ```
 
+Callback can be invoked synchronously or asynchronously. 
+
+Callbacks can be invoked before or after the function they are passed to return.
+
+Examples: 
+
+    synchronous (before) beforeEach()
+    asynchronous (after): window.requestAnimationFrame()
+
 
     

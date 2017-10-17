@@ -4,6 +4,7 @@ cities.forEach(function callback(city){
    console.log('first: ', city);
 });
 
+// 1.3.
 function callback(city){
     console.log('second: ', city);
 }
